@@ -87,10 +87,10 @@ scc/                    # Thư mục gói (Package)
 ## 💻 Ví dụ sử dụng nhanh
 
 ```python
-from scc import ChromeController
+import scc
 
 # Khởi tạo với cấu hình tối ưu
-ctrl = ChromeController(headless=False, disable_images=True)
+ctrl = scc.SCC(headless=False, disable_images=True)
 ctrl.begin()
 
 # Mở tab với nickname chuyên nghiệp
