@@ -13,7 +13,7 @@
 ## 📋 Mục lục
 - [🤖 Phân nhiệm: Con người & AI](#-phân-nhiệm-con-người--ai)
 - [⚖️ Tại sao nên dùng SCC thay vì Selenium thuần?](#️-tại-sao-nên-dùng-scc-thay-vì-selenium-thuần)
-- [📦 Cài đặt thư viện bổ sung](#-cài-đặt)
+- [📦 Thư viện bổ sung](#-thư-viện-bổ-sung)
 - [🗂 Cấu trúc dự án đề xuất](#-cấu-trúc-dự-án-đề-xuất)
 - [🔥 Tính năng nổi bật](#-tính-năng-nổi-bật)
 - [💻 Ví dụ sử dụng nhanh](#-ví-dụ-sử-dụng-nhanh)
@@ -46,7 +46,7 @@ Dự án được xây dựng dựa trên sự phối hợp rõ ràng về vai t
 
 ---
 
-## 📦 Cài đặt thư viện bổ sung
+## 📦 Thư viện bổ sung
 
 ```bash
 # Cách 1: Sử dụng requirements.txt
