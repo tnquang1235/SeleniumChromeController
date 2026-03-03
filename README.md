@@ -125,4 +125,4 @@ Việc refactor đã phân tác rõ rệt trách nhiệm của từng nhóm hàm
 6.  **Advanced**: `execute_script()`, `set_zoom()`, `fetch_json_via_js()`.
 
 ---
-*Phát triển bởi con người, hỗ trợ bởi AI. Hướng tới sự chuyên nghiệp và tin cậy.*
+*Phát triển bởi Quang Amateur, hỗ trợ bởi AI. Hướng tới sự chuyên nghiệp và tin cậy.*
