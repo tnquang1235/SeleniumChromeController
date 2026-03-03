@@ -13,7 +13,7 @@
 ## 📋 Mục lục
 - [🤖 Phân nhiệm: Con người & AI](#-phân-nhiệm-con-người--ai)
 - [⚖️ Tại sao nên dùng SCC thay vì Selenium thuần?](#️-tại-sao-nên-dùng-scc-thay-vì-selenium-thuần)
-- [📦 Cài đặt](#-cài-đặt)
+- [📦 Cài đặt thư viện bổ sung](#-cài-đặt)
 - [🗂 Cấu trúc dự án đề xuất](#-cấu-trúc-dự-án-đề-xuất)
 - [🔥 Tính năng nổi bật](#-tính-năng-nổi-bật)
 - [💻 Ví dụ sử dụng nhanh](#-ví-dụ-sử-dụng-nhanh)
@@ -87,7 +87,7 @@ scc/                    # Thư mục gói (Package)
 ## 💻 Ví dụ sử dụng nhanh
 
 ```python
-from selenium_chrome_controller import ChromeController
+from scc import ChromeController
 
 # Khởi tạo với cấu hình tối ưu
 ctrl = ChromeController(headless=False, disable_images=True)
