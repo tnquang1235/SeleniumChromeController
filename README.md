@@ -46,7 +46,7 @@ Dự án được xây dựng dựa trên sự phối hợp rõ ràng về vai t
 
 ---
 
-## 📦 Cài đặt
+## 📦 Cài đặt thư viện bổ sung
 
 ```bash
 # Cách 1: Sử dụng requirements.txt
