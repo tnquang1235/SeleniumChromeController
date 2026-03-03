@@ -58,22 +58,17 @@ pip install selenium webdriver-manager pymsgbox retry python-dotenv pyyaml
 
 ---
 
-## 🗂 Cấu trúc dự án đề xuất
+## 🗂 Cấu trúc thư viện
 
-Để dự án chuyên nghiệp và dễ bảo trì, việc tách nhỏ file (`Refactoring`) là bước đi cần thiết. Dưới đây là cách đặt tên và phân nhiệm file đề xuất:
+Thư viện được tách nhỏ thành các module chuyên nghiệp:
 
 ```
-SCC_Project/
-├── scc/                # Package gốc của thư viện
-│   ├── __init__.py     # Export các thành phần chính để sử dụng gọn gàng
-│   ├── controller.py   # Lớp ChromeController chính (Trái tim của thư viện)
-│   ├── helpers.py      # Các công cụ hỗ trợ (decode url, retry decorator...)
-│   ├── models.py       # Định nghĩa các cấu trúc dữ liệu (DownloadItem...)
-│   └── constants.py    # Lưu trữ VERSION, phím tắt, cấu hình mặc định
-├── logs/               # Hệ thống lưu trữ screenshot và vết lỗi
-├── .env                # Lưu cấu hình môi trường (USER_DATA_DIR, PATH...)
-├── requirements.txt    # Danh sách thư viện phụ thuộc
-└── README.md           # Hướng dẫn này
+scc/                    # Thư mục gói (Package)
+├── __init__.py         # Export các thành phần chính
+├── controller.py       # Lớp ChromeController chính (Trái tim của thư viện)
+├── helpers.py          # Các công cụ hỗ trợ (logging, retry deco, decode url...)
+├── models.py          # Định nghĩa các cấu trúc dữ liệu (DownloadItem...)
+└── constants.py       # Lưu trữ VERSION, phím tắt, cấu hình
 ```
 
 ---
@@ -125,4 +120,4 @@ Việc refactor đã phân tác rõ rệt trách nhiệm của từng nhóm hàm
 6.  **Advanced**: `execute_script()`, `set_zoom()`, `fetch_json_via_js()`.
 
 ---
-*Phát triển bởi Quang Amateur, hỗ trợ bởi AI. Hướng tới sự chuyên nghiệp và tin cậy.*
+*Phát triển bởi 🌱Quang Amateur✨, hỗ trợ bởi AI. Hướng tới sự chuyên nghiệp và tin cậy.*
