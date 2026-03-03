@@ -44,7 +44,7 @@ Dự án được xây dựng dựa trên sự phối hợp rõ ràng về vai t
 | Độ trễ website | ❌ Tự xử lý | ✅ Tích hợp wait, retry |
 | Tự cuộn chuột | ❌ Dễ lỗi | ✅ Tự động trước khi diễn ra |
 | Click Force | ❌ Click thường | ✅ Fallback sang JS (Click force) |
-| Quản lý tab | ❌ Dùng handle phức tạp | ✅ Quản lý bằng name |
+| Quản lý tab | ❌ Dùng handle phức tạp | ✅ Quản lý bằng `name` |
 | Theo dõi tải file | ❌ Khó triển khai | ✅ Shadow DOM (Đã tích hợp) |
 | Debug | ❌ Khó truy vết | ✅ Chụp ảnh tự động khi lỗi |
 
@@ -84,11 +84,11 @@ scc/                    # Thư mục gói (Package)
 ## 🔥 Tính năng nổi bật
 
 *   **⚡ Smart Action Engine**: Tự động cuộn chuột và chờ đợi phần tử hiển thị trước khi tương tác.
-*   **🛡️ Click-Force Technology**: Tự động fallback sang JavaScript click khi Selenium click không thực thi được.
-*   **📑 Alias-based Tab Management**: Quản lý đa tab bằng nickname (`name`), loại bỏ việc quản lý `window_handles` thủ công.
+*   **🛡️ Click-Force**: Tự động fallback sang JavaScript click khi Selenium click không thực thi được.
+*   **📑 Tab Management**: Hỗ trợ quản lý nhiều tab bằng `name`.
 *   **📥 Downloads tracking**: Tự động theo dõi tiến trình tải file qua `chrome://downloads`.
-*   **📸 Error Auto-Capture**: Chụp ảnh màn hình tự động vào thư mục `/logs` khi gặp lỗi để dễ dàng debug.
-*   **🧩 Anti-Detection**: Tích hợp các cấu hình giả lập người dùng, bypass các hệ thống phát hiện bot cơ bản.
+*   **📸 Error Capture**: Chụp ảnh màn hình tự động vào thư mục `/logs` khi gặp lỗi.
+*   **🧩 Anti-Detection**: Tích hợp cấu hình giả lập người dùng, bypass các hệ thống phát hiện bot cơ bản.
 
 ---
 
