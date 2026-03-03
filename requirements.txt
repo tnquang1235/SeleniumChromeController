@@ -1,0 +1,6 @@
+selenium
+webdriver-manager
+pymsgbox
+retry
+python-dotenv
+pyyaml
