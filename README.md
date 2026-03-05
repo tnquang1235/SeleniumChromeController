@@ -61,7 +61,7 @@ pip install -r requirements.txt
 ### Cách 2 – Cài đặt thủ công
 
 ```bash
-pip install selenium webdriver-manager pymsgbox retry python-dotenv pyyaml yfinance requests schedule pytz locale gspread oauth2client psycopg2-binary pandas
+pip install selenium webdriver-manager pymsgbox retry python-dotenv pyyaml yfinance requests schedule pytz gspread oauth2client psycopg2-binary pandas
 ```
 
 ---
